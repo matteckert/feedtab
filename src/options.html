@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Feedtab Options</title>
+        <link rel="stylesheet" href="css/basscss.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Raleway:400,700,900">
+    </head>
+    <body class="px-responsive py0 measure wrap">
+        <header class="px-responsive py1 ml-responsive mr-responsive mt1 white bg-green">
+            <h1 class="center h1 mb1"><strong>Feedtab</strong></h1>
+            <p class="center h3 mb0">Easily open unread RSS items in new tabs.</p>
+        </header>
+        <main class="px-responsive py0  mt1 clearfix">
+            <section id="options" class="mt0 mb2 mr-responsive ml-responsive">
+                <h1 class="h2">Options</h1>
+                <form class="form form-stacked">
+                    <label class="p">Update interval (minutes):</label>
+                    <input type="text" class="input mobile-block p right-align" placeholder="# of minutes">
+                    
+                    <label class="p">Maximum tabs to open:</label>
+                    <input type="text" class="input mobile-block p right-align" placeholder="# of items">
+                    
+                    <fieldset>
+                        <label for="radio-1" class="radio p"> 
+                            <input name="radios" id="radio-1" type="radio"> 
+                            Open <strong>oldest items</strong> first
+                        </label>
+                        <label for="radio-2" class="radio p">
+                            <input name="radios" id="radio-2" type="radio"> 
+                            Open <strong>newest items</strong> first
+                        </label>
+                    </fieldset>
+                    <label for="markread" class="checkbox p">
+                        <input id="markread" type="checkbox">
+                        <strong>Mark items read</strong> when opened
+                    </label>
+                    <label for="newtabwindow" class="checkbox p">
+                        <input id="newtabwindow" type="checkbox">
+                        Open tabs in <strong>a new window</strong>
+                    </label>
+                    <label for="refreshempty" class="checkbox p">
+                        <input id="refreshempty" type="checkbox">
+                        <strong>Refresh on click</strong> if all items read
+                    </label>
+                    <div class="right-align">
+                        <button class="button button-gray">
+                            <span class="h3">Cancel</span>
+                        </button>
+                        <button class="button button-green ml1">
+                            <span class="h3">Submit</span>
+                        </button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer class="px-responsive py0 m clearfix center">
+            <p class="small">
+                &copy; 2014 
+                <a href="mailto:me@matteckert.com">
+                    Matt Eckert
+                </a> &middot;
+                <a href="https://github.com/matteckert/feedtab/blob/master/LICENSE">
+                    License
+                </a> &middot;
+                <a href="https://github.com/matteckert/feedtab">
+                    Github
+                </a>
+            </p>  
+        </footer>
+    </body>
+</html>
