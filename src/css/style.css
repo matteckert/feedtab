@@ -1,0 +1,29 @@
+.green {
+    color: #6cc655;
+}
+
+.bg-green {
+    background-color: #6cc655;
+}
+
+body {
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif; 
+}
+
+fieldset {
+    border: 0px;
+}
+
+.h1 {
+    font-weight: 900;
+}
+
+.button-green {
+  color: #fff;
+  background-color: #6cc655;
+}
+
+.button-green:hover {
+  color: #fff;
+  background-color: #5b7954;
+}
